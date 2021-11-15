@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+.account{
+	display: none;
+	width: 600px;
+	margin: 10px auto;
+	border: 1px solid lightslategrey;
+	border-radius: 10px;
+}
+
+.account-head{
+	height: 100px;
+	background-color: rgb(49 124 49);;
+	color: linen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px 10px 0 0;
+}
+
+.account-body{
+	/* background-color: mediumaquamarine; */
+	padding: 10px 48px;
+}
+.user-info{
+	margin: 10px 0;
+}
+.details{
+	font-size: 20px;
+	line-height: 30px;
+}
+.user{
+	height: 40px;
+	width: 500px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.gender{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.gender-selected{
+	font-size: 20px;
+}
+
+.check{
+	height: 20px;
+	width: 20px;
+}
+
+.btn-select{
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-up{
+	background-color: rgb(28 78 28);
+	color: linen;
+}
+
+
+
+/* Form2 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.completed{
+	display: none;
+	width: 400px;
+	margin: 50px auto;
+	border: 1px solid lightslategrey;
+	border-radius: 10px;
+}
+
+.completed-head{
+	height: 150px;
+	width: 100%;
+	background-color: rgb(49 124 49);
+	border-radius: 10px 10px 0 0;
+	position: relative;
+}
+
+.completed-img{
+	width: 135px;
+	height: 135px;
+	display: block;
+	margin: 8px 0 0 7px;
+	background-color: rgb(184, 179, 179);
+	border-radius: 50%;
+}
+.img_notactive{
+	display: none;
+}
+
+.img-container{
+	position: absolute;
+	top: 65px;
+	left: 130px;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background-color: #fff;
+
+}
+
+.completed-body{
+	text-align: center;
+}
+.body-info{
+	margin-bottom: 15px;
+	padding: 70px 20px 20px;
+	
+}
+
+.receiver{
+	margin: 5px 0;
+	font-size: 15px;
+}
+.btn-out{
+	height: 30px;
+	width: 50px;
+	background-color: #fff;
+	border: 1px solid rgb(15, 80, 15);
+	border-radius: 10px;
+	height: 40px;
+	width: 80px;
+	margin: 15px 0;
+}
+
+.btn-out:hover{
+	background-color: rgb(15, 80, 15);
+	color: linen;
+}
+
+.footer{
+	background-color: rgb(15, 80, 15);
+	border-radius: 0 0 10px 10px;
+	color: linen;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social{
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.icon{
+	color: #fff;
+	overflow: hidden;
+}
+
+.active{
+	display: block;
+}
